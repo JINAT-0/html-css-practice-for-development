@@ -1,4 +1,9 @@
 *{
     color: darkred;
     text-align: center;
+    background-color: aqua;
+}
+.pp{
+    border: 20px black ;
+    color: palevioletred;
 }
