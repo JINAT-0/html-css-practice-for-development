@@ -2,8 +2,15 @@
     color: darkred;
     text-align: center;
     background-color: aqua;
+    height: 1000px;
+    width: 600px;
+    padding: 40px;
 }
 .pp{
     border: 20px black ;
     color: palevioletred;
+}
+h1{
+    border: 2px solid red;
+    border-radius: 5px;
 }
