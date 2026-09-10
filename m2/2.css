@@ -1,4 +1,11 @@
 *{
     background-color: bisque;
     margin: 30px 30px;
+    border: 2px solid rosybrown;
+    padding: 10px;
+}
+.new1{
+    background-image: url(./css/images\ \(8\).jpeg);
+    
+
 }
