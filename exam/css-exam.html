@@ -6,18 +6,34 @@
     <link rel="stylesheet" href="./e2.css">
     <title>Exam-2</title>
     <style>
-        th,td{
+        *{
+            
+            
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        table,tr,td,th{
             border: 2px solid black;
+            border-collapse: collapse;
             
             
         }
         th{
             background-color: bisque;
         }
+        .mcq{
+            text-align:center ;
+            display: grid;
+            justify-content: center;
+           
+        }
     </style>
 </head>
 <body>
-    1.b 
+   <div class="mcq">
+     1.b 
     2.c 
     3.b 
     4.c 
@@ -27,11 +43,15 @@
     8.d 
     9.b 
     10.c 
+
+   </div>
      <!--ans-1  -->
-     <h1 class="a1">Hello World</h1>
+    <div style="border: 2px solid darkred;">
+         <h1 class="a1">Hello World</h1>
      <p class="a2">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum possimus optio harum culpa sed est, tempore nobis iusto perferendis excepturi ratione iure, rem nemo recusandae voluptatibus vel laborum, labore amet.
      </p>
+    </div>
      <!-- ans-2 -->
       <div class="b1">
         <h1>Hey there</h1>
@@ -54,15 +74,15 @@
        <!-- ans-4 -->
         <div>
             <table class="d1">
-                <caption>student table</caption>
+                <caption style="font-size: large ;">student table</caption>
                 
-                <th >
-                    <tr>
-                        <td>Name</td>
-                        <td>roll</td>
-                        <td>marks </td>
-                    </tr>
-                </th>
+                
+                <tr>
+                    <th>Name</th>
+                    <th>roll</th>
+                    <th>marks </th>
+                </tr>
+                
                 
                 <tr>
                     <td>jinat</td>
@@ -84,7 +104,7 @@
         <!-- ans-5 -->
          <div class="e5">
             <b><h1>profile card</h1></b>
-            <img src="./images (5).jpeg" alt="" height="50px" width="50px">
+            <img src="./images (5).jpeg" alt="" height="250px" width="300px">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iusto aliquam quibusdam impedit ab quaerat soluta eveniet! Fugit, ad dolore. In, corrupti. Facilis quae dolore magnam soluta doloribus, ut minus!</p>
          </div>
 </body>
