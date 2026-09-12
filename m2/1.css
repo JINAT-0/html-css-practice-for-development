@@ -1,9 +1,8 @@
 *{
     color: darkred;
     text-align: center;
-    background-color: aqua;
-    height: 100px;
-    width: 600px;
+    background-color:white;
+  
     padding: 40px;
 }
 .pp{
@@ -12,5 +11,5 @@
 }
 h1{
     border: 2px solid red;
-    border-radius: 5px;
+    border-radius: 50px;
 }
