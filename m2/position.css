@@ -12,4 +12,7 @@ body{
 .box-1 img{
     height: 150px;
     width: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
 }
