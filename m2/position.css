@@ -1,0 +1,15 @@
+body{
+    margin: 20px;
+}
+.box-1{
+    position: fixed;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+}
+.box-1 img{
+    height: 150px;
+    width: 100px;
+}
