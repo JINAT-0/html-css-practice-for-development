@@ -4,7 +4,7 @@
  *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
  }
  
 .open-sans {
@@ -54,4 +54,34 @@ nav{
     color:white ;  
     padding: 19px 36px;  
     border: none;                    
+}
+.hero-2{
+    width: 585px;
+    height: 262px;
+    display: grid
+    
+}
+.hero-2 h5{
+    color: #474747;
+    font-size: 45px;
+}
+.hero-2 h1{
+    color: #181818;
+    font-weight: 600;
+    font-size: 85px;
+}
+.hero-2 p{
+    color: #757575;
+    font-size: 18px;
+}
+.side-btn{
+    border:1px solid #FD6E0A ;
+    color:#FD6E0A ;
+    font: 20px;
+    font-weight:bold;
+
+}
+.btn-2{
+    display: flex;
+    
 }
